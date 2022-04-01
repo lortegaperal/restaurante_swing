@@ -3,8 +3,10 @@ package pantalla;
 import javax.swing.*;
 import javax.swing.border.EmptyBorder;
 import java.awt.*;
+import java.io.File;
 
 public class App extends JFrame {
+
 
     public App(){
 
@@ -35,9 +37,6 @@ public class App extends JFrame {
         setVisible(true);
         setDefaultCloseOperation(EXIT_ON_CLOSE);
         setSize(new Dimension(500,500));
-
-
-
 
     }
 
